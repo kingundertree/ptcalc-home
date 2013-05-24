@@ -1,0 +1,49 @@
+<!doctype html>
+<html ng-app="jsqpage">
+<head>
+	<meta charset="UTF-8" />
+	<title>上海房税-上海地区最精准的房产税费计算器</title>
+	<link type="text/css" rel="stylesheet" href="css/css.css">
+	<link rel="icon" href="img/favicon.ico" type="image/x-icon" />
+	<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+	<script type="text/javascript" src="js/js.js"></script>
+</head>
+<body>
+<div class="main" id="main">
+	<div class="wrap">
+		<div class="con" id="con">
+			<i></i>
+			<p class="pname">上海房税</p>
+			<p class="beta">IOS 1.1/安卓beta 0.1</p>
+			<p class="pdes">上海地区最精准的房产税费计算器</p>
+			<a class="btn"><b class="qrcode"></b></a>
+			<p class="downdes">IOS或者安卓用户，扫描二维码(微信或者其他二维码工具)下载使用</p>
+			<div class="pline">
+				<p>欢迎通过以下方式反馈</p>
+				<p>1 RTX,工号90593（徐山）</p>
+				<p>2 电话: 156-1852-8013</p>
+				<p>3 邮箱: 90593@dooioo.com</p>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="bottom" id="bottom">
+</div>
+<script type="text/javascript">
+if (window.location.host.indexOf("dooioo.com")!=-1){  //过滤掉所有非正式环境的访问
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-15293932-21']);  
+    _gaq.push(['_setDomainName', 'dooioo.com']);  //自动为二级域名分组，如120.dooioo.com
+    _gaq.push(['_setSiteSpeedSampleRate', 10]);  //为10%的页面访问监控速度
+    _gaq.push(['_trackPageview']);
+ //获取访客的信息，用户名+工号
+
+    (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+}
+</script>
+</body>
+</html>
